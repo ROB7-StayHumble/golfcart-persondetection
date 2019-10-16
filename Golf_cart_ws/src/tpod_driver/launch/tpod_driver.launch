@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="tpod_driver" pkg="tpod_driver" type="tpod_driver_node" output="screen">
+    <param name="tpod_ip" value="192.168.1.20:50000" type="str" />
+  </node>
+</launch>
